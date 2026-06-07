@@ -1,1 +1,12 @@
+Data Entry Interface: Google Forms
+Transaction Classification: 
+Uses a Multiple Choice field (Type) to distinguish between Deposit, Withdrawal, Buy, and Sell actions.
 
+Ticker Standardization: 
+A Short Answer field for the Ticker Symbol that accepts flexible input (e.g., LON:VWRA, AAPL, or 700) to accommodate multiple global exchanges.
+
+Currency Normalization: 
+A Multiple Choice field (Trade Currency (FX)) to ensure transactions are tagged by their native currency (USD or HKD).
+
+Quantitative Input: 
+Dedicated Short Answer fields for Quantity (restricted to positive numbers), Value (total cash or price per share), and Transaction Fee for granular ROI tracking.
